@@ -1,0 +1,155 @@
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 1em 0;
+    }
+    .masthead-heading {
+        font-size: 1em;
+    }
+    h1{
+      /* Typography Declarations */
+      font-size: .9em;
+    }
+    body { font-size: 13px }
+}
+}
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color:#6799C6;
+}
+
+a:hover{
+  background-color: #dcd6c8;
+}
+
+h1{
+  /* Typography Declarations */
+  color:#768490;
+  font-family: Cardo, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer{
+  text-align:center;  
+}
+
+.masthead{
+  padding: 8em 0;
+  background-image:url( https://unsplash.imgix.net/photo-1416512107527-34cebecbac33?q=75&fm=jpg&s=58eff2b3daa3b797fb23fcd511d843ca);
+  font-family:"Arial";
+  background-size:cover;
+  border-top: solid 1em #3f5e7a;
+}
+
+.masthead-intro{
+  margin-bottom:0.2em;
+  font-family: Cardo, Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading{
+  margin-top:-0.2em;
+  color: #3f5e7a;
+  font-family: Cardo, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 1px #253747; 
+}
+
+.masthead-tagline{
+  text-align:center;
+  font-style:italic;
+  color:#768490 ;
+  background-color:white;
+  width:32em;
+  margin-top:-2em;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:.2em;
+  padding-bottom:.2em;
+}
+
+
+.introduction-section > p,
+.location-section > p,
+.questions-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color:#768490;
+}
+
+.introduction-section,
+.location-section,
+.questions-section,
+.content-footer{
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section{
+  padding: 1em 0;
+  color: #044761; 
+}
+
+.location-section{
+  padding: 1em 0;
+  color: #044761; 
+}
+.questions-section{
+  padding: 1em 0;
+  color: #044761; 
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: Cardo, Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  color:#768490;
+}
+
+.content-footer{
+ background-color:#768490 ;
+ text-align:center;
+ padding-top:1em;
+ padding-bottom:2em;
+}
+
+.content-footer > p {
+ color: white;
+}
+
+.content-footer a {
+  color:#dcd6c8;
+  text-decoration: none;
+  
+}
+
+.content-footer a:hover {
+  background:#044761;
+}
+
+ul.social {
+padding: 0px;
+}
+
+.social li {
+  list-style:none;
+  display: inline-block;
+}
