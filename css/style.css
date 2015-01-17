@@ -4,6 +4,7 @@
     }
     .masthead-heading {
         font-size: 1em;
+        letter-spacing: 0.4em;
     }
     h1{
       /* Typography Declarations */
@@ -38,6 +39,7 @@ h1{
 
 .masthead-heading,
 .masthead-intro,
+.portfolio-section,
 .content-footer,
 .nav{
   text-align:center;  
@@ -63,9 +65,9 @@ h1{
   font-family: Cardo, "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 6em;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  text-shadow: 4px 4px 1px #253747; 
+  text-shadow: 2px 2px 5px #253747; 
 }
 
 .masthead-tagline{
@@ -147,6 +149,10 @@ h1{
   font-weight: bold;
   font-style: italic;
   color:#768490;
+}
+
+.portfolio-section{
+
 }
 
 .content-footer{
