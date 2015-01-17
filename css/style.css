@@ -38,14 +38,15 @@ h1{
 
 .masthead-heading,
 .masthead-intro,
-.content-footer{
+.content-footer,
+.nav{
   text-align:center;  
 }
 
 .masthead{
   padding: 8em 0;
   background-image:url( https://unsplash.imgix.net/photo-1416512107527-34cebecbac33?q=75&fm=jpg&s=58eff2b3daa3b797fb23fcd511d843ca);
-  font-family:"Arial";
+  font-family:Cardo, "Arial";
   background-size:cover;
   border-top: solid 1em #3f5e7a;
 }
@@ -69,7 +70,7 @@ h1{
 
 .masthead-tagline{
   text-align:center;
-  font-style:italic;
+  font-style:normal;
   color:#768490 ;
   background-color:white;
   width:32em;
@@ -78,6 +79,30 @@ h1{
   margin-right:auto;
   padding-top:.2em;
   padding-bottom:.2em;
+}
+
+.nav {
+  padding: 0px;
+}
+
+.nav ul{
+  display: inline-block;
+  text-align: center;
+}
+
+.nav li{
+  display: inline-block;
+  float: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: .3em;
+  text-align: center;
+  color:#768490 ;
+  background-color:white;  
+}
+
+.nav a{
+  text-decoration: none;
 }
 
 
