@@ -168,12 +168,15 @@ h1{
 .portfolio-section ul{
   text-align: center;
   display: inline-block;
+  padding: 2em;
 }
 
 .portfolio-section li {
-  width: 25.00%;
+  width: 33.33%;
   float: left;
   display: inline-block;
+  padding-top: 2em;
+
 }
 
 .portfolio-section h3 {
