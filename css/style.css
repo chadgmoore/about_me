@@ -98,6 +98,7 @@ h1{
   padding-left: 2em;
   padding-right: 2em;
   padding-top: .3em;
+  padding-bottom: .3em;
   text-align: center;
   color:#768490 ;
   background-color:white;  
@@ -117,6 +118,7 @@ h1{
   font-weight: 300;
   letter-spacing: 0.05em;
   color:#768490;
+  font-size: 1.5em;
 }
 
 .introduction-section,
@@ -148,7 +150,7 @@ h1{
 .portfolio-section > h2 {
   /* Typography Declarations */
   font-family: Cardo, Georgia, serif;
-  font-size: 1.2em;
+  font-size: 1.8em;
   font-weight: bold;
   font-style: italic;
   color:#768490;
